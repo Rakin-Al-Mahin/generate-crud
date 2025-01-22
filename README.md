@@ -18,6 +18,12 @@ After installation, simply run the following command:
 generate-crud --name AnyName
 ```
 
+If you haven't install it globally then run the following command:
+
+```bash
+npx generate-crud --name AnyName
+```
+
 ## **What It Does**
 
 ##### 1. A new folder is created in the directory from where you run the command.
