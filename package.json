@@ -1,0 +1,36 @@
+{
+  "name": "@rakin_al_mahin/generate-crud",
+  "version": "1.0.2",
+  "description": "It's an NPM package that generates CRUD operation boilerplate codes in service, controller and route TypeScript files.",
+  "main": "dist/generate-crud.js",
+  "bin": {
+    "generate-crud": "dist/generate-crud.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakin-Al-Mahin/generate-crud.git"
+  },
+  "keywords": [
+    "CRUD"
+  ],
+  "author": "Md. Rakin Al Mahin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rakin-Al-Mahin/generate-crud/issues"
+  },
+  "homepage": "https://github.com/Rakin-Al-Mahin/generate-crud#readme",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.10.7",
+    "@types/yargs": "^17.0.33",
+    "typescript": "^5.7.3"
+  }
+}
