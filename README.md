@@ -7,12 +7,12 @@ An NPM package that automates the creation of boilerplate code for CRUD operatio
 Install the package globally using npm:
 
 ```bash
-npm install -g generate-crud
+npm install -g @rakin_al_mahin/generate-crud
 ```
 
 ## **Usage**
 
-After installation, simply run the following command:
+After installation (globally), simply run the following command:
 
 ```bash
 generate-crud --name AnyName
